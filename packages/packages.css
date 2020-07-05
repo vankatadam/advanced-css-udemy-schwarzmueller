@@ -37,6 +37,10 @@ main {
   top: 0px;
   right: 0px;
   margin: 20px;
+  background-color: #ff5454;
+  font-size: small;
+  padding: 8px;
+  color: white;
 }
 
 .package__subtitle {
