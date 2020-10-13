@@ -5,7 +5,6 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
-  overflow-x: hidden;
 }
 
 .backdrop {
@@ -63,8 +62,8 @@ body {
   font-size: 1.5rem;
   height: 1.5rem;
   /* width: 20px; */
-  vertical-align: middle;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .main-header__brand img {
@@ -196,4 +195,8 @@ body {
 
 .button:focus {
   outline: none;
+}
+
+.open {
+    display: block !important;
 }
