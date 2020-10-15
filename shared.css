@@ -63,7 +63,7 @@ body {
   font-size: 1.5rem;
   height: 2.5rem;
   /* width: 20px; */
-  display: none;
+  display: inline-block;
   vertical-align: middle;
 }
 
