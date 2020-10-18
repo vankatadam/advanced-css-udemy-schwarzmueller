@@ -16,4 +16,14 @@ main {
   width: 100%;
 }
 
-.signup-form;
+/* .signup-form input[type="checkbox"]  */
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+  display: inline-block;
+  width: auto;
+}
+
+.signup-form button[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+}
