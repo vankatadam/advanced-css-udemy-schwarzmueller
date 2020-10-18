@@ -29,14 +29,13 @@ main {
   top: 0;
   left: 0;
   background: #2ddf5c;
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 1rem;
   z-index: 1;
 }
 
 .main-header > div {
   display: inline-block;
   vertical-align: middle;
-  height: 3rem;
 }
 
 .toggle-button {
@@ -78,9 +77,6 @@ main {
 
 .main-nav {
   display: none;
-  text-align: right;
-  width: calc(100% - 44px);
-  vertical-align: middle;
 }
 
 .main-nav__items {
@@ -125,6 +121,19 @@ main {
   border: none;
 }
 
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 44px);
+    vertical-align: middle;
+  }
+}
+
 .main-footer {
   background: black;
   padding: 2rem;
@@ -139,7 +148,8 @@ main {
 }
 
 .main-footer__link {
-  margin: 1rem 0rem;
+  display: block;
+  margin: 1rem 0;
 }
 
 .main-footer__link a {
@@ -202,22 +212,10 @@ main {
 }
 
 .open {
-  display: block !important;
+    display: block !important;
 }
 
 @media (min-width: 40rem) {
-  .toggle-button {
-    display: none;
-  }
-
-  .main-header__brand {
-    display: inline-block;
-  }
-
-  .main-nav {
-    display: inline-block;
-  }
-
   .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
